@@ -1,0 +1,5 @@
+package com.hospital.userManagement.entities;
+
+public class Qualification {
+
+}

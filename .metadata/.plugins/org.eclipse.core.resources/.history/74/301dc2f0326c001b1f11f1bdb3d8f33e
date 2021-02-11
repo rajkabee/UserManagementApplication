@@ -1,0 +1,5 @@
+package com.hospital.userManagement.repositories;
+
+public interface RoleRepository {
+
+}

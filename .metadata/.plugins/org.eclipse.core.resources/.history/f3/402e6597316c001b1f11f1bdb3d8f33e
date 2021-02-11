@@ -1,0 +1,17 @@
+package com.hospital.userManagement.entities;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Address {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private long address_id;
+	private String country;
+	private String state;
+	private String district;
+	private String municipality;
+	private int ward;
+	private String street;
+	private int POB_no;
+}
