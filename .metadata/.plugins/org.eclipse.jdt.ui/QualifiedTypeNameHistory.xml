@@ -2,10 +2,8 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="com.hospital.userManagement.entities.User"/>
     <fullyQualifiedTypeName name="com.hospital.userManagement.entities.Address"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="com.hospital.userManagement.services.UserService"/>
     <fullyQualifiedTypeName name="com.hospital.userManagement.repositories.UserRepository"/>
@@ -16,4 +14,8 @@
     <fullyQualifiedTypeName name="com.hospital.userManagement.services.DBFileStorageService"/>
     <fullyQualifiedTypeName name="com.hospital.userManagement.payload.UploadFileResponse"/>
     <fullyQualifiedTypeName name="com.hospital.userManagement.entities.DBFile"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.EnableEurekaClient"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 </qualifiedTypeNameHistroy>
