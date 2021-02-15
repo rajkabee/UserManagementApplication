@@ -17,6 +17,8 @@ public class Address {
 	private int ward;
 	private String street;
 	private int POB_no;
+	
+	
 	public Address() {
 		super();
 		// TODO Auto-generated constructor stub

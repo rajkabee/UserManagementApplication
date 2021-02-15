@@ -10,6 +10,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 @Entity
 public class User {
 	@Id
@@ -22,10 +24,14 @@ public class User {
 	private String email;
 	private String gender;
 	private Date dob;
+	private String password;
+	
 	@OneToOne
 	private Address address;
 	@OneToOne
 	private Role role;
+	@OneToOne
+	private DBFile profilePic;
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -56,6 +62,22 @@ public class User {
 		this.dob = dob;
 		this.address = address;
 		this.role = role;
+	}
+	
+	public User(long user_id, String first_name, String middle_name, String last_name, String contact, String email,
+			String gender, Date dob, Address address, Role role, DBFile profilePic) {
+		super();
+		this.user_id = user_id;
+		this.first_name = first_name;
+		this.middle_name = middle_name;
+		this.last_name = last_name;
+		this.contact = contact;
+		this.email = email;
+		this.gender = gender;
+		this.dob = dob;
+		this.address = address;
+		this.role = role;
+		this.profilePic = profilePic;
 	}
 	public long getUser_id() {
 		return user_id;
@@ -116,6 +138,14 @@ public class User {
 	}
 	public void setRole(Role role) {
 		this.role = role;
+	}
+	
+	
+	public DBFile getProfilePic() {
+		return profilePic;
+	}
+	public void setProfilePic(DBFile profilePic) {
+		this.profilePic = profilePic;
 	}
 	@Override
 	public String toString() {

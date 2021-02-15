@@ -5,11 +5,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.springframework.beans.factory.annotation.Value;
+
 @Entity
 public class Role {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int role_id;
+	@Value("user")
 	private String role_Name;
 	
 	public Role() {

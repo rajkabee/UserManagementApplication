@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.entities.User"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.entities.Address"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.services.UserService"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.repositories.UserRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.repositories.DBFileRepository"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.exceptions.FileStorageException"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.exceptions.MyFileNotFoundException"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.services.DBFileStorageService"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.payload.UploadFileResponse"/>
+    <fullyQualifiedTypeName name="com.hospital.userManagement.entities.DBFile"/>
+</qualifiedTypeNameHistroy>
